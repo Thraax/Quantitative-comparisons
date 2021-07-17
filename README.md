@@ -1,7 +1,8 @@
 # Quantitative-comparisons
 ## Introduce our basic quantitative data:
 
-This is simple data about olympiad, ten countries each of them earned a gold, sliver and bronze medals, our mission is to make comparisons and analysis for this data:
+This is simple data about olympiad, ten countries each of them earned a gold, sliver and bronze medals <br />
+our mission is to make comparisons and analysis for this data:
 
 ![image](https://user-images.githubusercontent.com/43391147/126034931-f1a99f84-58a3-4e27-a0d0-0dde22913e90.png)
 
@@ -21,8 +22,8 @@ plt.show()
 
 ![image](https://user-images.githubusercontent.com/43391147/126035081-cb7e80a0-8df3-4f80-bf92-621eec27b5c3.png)
 
-First problem we can see here: the names on x-axis
-to fix that we need to rotate the names only by 90 degree
+First problem we can see here: the names on x-axis<br />
+to fix that we need to rotate the names only by 90 degree<br />
 We will add function 'set_xticklabels()':
 
 ```
