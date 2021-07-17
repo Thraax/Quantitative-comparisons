@@ -55,3 +55,53 @@ ax.bar(medals.index, medals['Bronze'], bottom=medals["Gold"] + medals["Silver"],
 
 Look good for now...
 
+## Explore the distribution of data
+
+Now we will use larger dataset for this case, our data simpily will be comparison of men hights in two different sprots (Gymnastics, Rowing)
+
+**Gymnastics men data:**
+
+![image](https://user-images.githubusercontent.com/43391147/126051549-8a0abc6c-2a9a-47de-b179-23a2133b5ad4.png)
+<br />
+
+**Rowing men data:**
+
+![image](https://user-images.githubusercontent.com/43391147/126051566-8b3b700b-692a-483a-ad41-a397a6429451.png)
+
+<br />
+
+**Let's Hist it**
+
+```
+# customize the bin or the interval for 5 only, the default is 10
+ax.hist(men_rowing['Height'], label='rowing', bins=5)
+ax.hist(men_gymnastics['Height'], label='gymnastics', bins=5)
+# labeling xy axis for 
+ax.set_xlabel('Heights of men')
+ax.set_ylabel('# of observation')
+plt.legend()
+plt.show()
+```
+
+Now we get this:
+
+![image](https://user-images.githubusercontent.com/43391147/126051754-e2e78f65-533f-41af-9fc6-1d5be871b5c1.png)
+
+<br />
+
+Look good, but we can modify to read it easy, by adding 'hisstype' attribute <br />
+
+```
+ax.hist(men_rowing['Height'], label='rowing', bins=5, histtype='step')
+ax.hist(men_gymnastics['Height'], label='gymnastics', bins=5, histtype='step')
+```
+
+![image](https://user-images.githubusercontent.com/43391147/126051780-db94ec81-a1d7-4ace-863b-00c217791f8a.png)
+<br />
+
+We can see now most of rowing players below under 180CM <br />
+And gymnastic players are taller than rowing players and their heights concentrated in the interval between 180:198<br>
+
+
+
+
