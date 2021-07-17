@@ -21,7 +21,8 @@ plt.show()
 
 ![image](https://user-images.githubusercontent.com/43391147/126035081-cb7e80a0-8df3-4f80-bf92-621eec27b5c3.png)
 
-First problem we can see here: the names on x-axis, to fix that we need to rotate the names only by 90 degree
+First problem we can see here: the names on x-axis
+to fix that we need to rotate the names only by 90 degree
 We will add function 'set_xticklabels()':
 
 ```
