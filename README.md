@@ -32,4 +32,26 @@ ax.set_xticklabels(pd['Unnamed: 0'], pd['Gold'], label='Gold')
 
 ![image](https://user-images.githubusercontent.com/43391147/126035161-962b8207-a613-44a5-a014-254b14afafaf.png)
 
-so far so good...
+**so far so good...**
+
+## Let's add the other elements in this comparison:
+
+Add silver:<br />
+
+```
+ax.bar(medals.index, medals.Silver, bottom=medals.Gold, label='Silver')
+```
+
+Same for bronze:<br />
+
+```
+# Stack bars for "Bronze" on top of that with label "Bronze"
+ax.bar(medals.index, medals['Bronze'], bottom=medals["Gold"] + medals["Silver"], label='Bronze')
+```
+
+**And now :**
+
+![image](https://user-images.githubusercontent.com/43391147/126035332-f8322888-6d84-43e0-9129-d21a6e95b677.png)
+
+Look good for now...
+
