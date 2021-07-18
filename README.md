@@ -114,7 +114,7 @@ if we add: ``` ax.boxplot([men_rowing['Height'], men_gymnastics['Height']]) ``` 
 
 The information that we can extract from here
 * Median
-* Unusually samples
+* Unusually samples <br>
   ex: in the figure above, the three circles under rowing box meaning that: there three players are more shorter than others <br>
 * interquartile range
 
