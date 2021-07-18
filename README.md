@@ -99,8 +99,8 @@ ax.hist(men_gymnastics['Height'], label='gymnastics', bins=5, histtype='step')
 ![image](https://user-images.githubusercontent.com/43391147/126051780-db94ec81-a1d7-4ace-863b-00c217791f8a.png)
 <br />
 
-We can see now most of rowing players below under 180CM <br />
-And gymnastic players are taller than rowing players and their heights concentrated in the interval between 180:198<br>
+We can see now most of gymnastic players below under 180CM <br />
+And rowing players are taller than gymnastic players and their heights concentrated in the interval between 180:198<br>
 
 
 
