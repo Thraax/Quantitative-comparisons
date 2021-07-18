@@ -102,6 +102,22 @@ ax.hist(men_gymnastics['Height'], label='gymnastics', bins=5, histtype='step')
 We can see now most of gymnastic players below under 180CM <br />
 And rowing players are taller than gymnastic players and their heights concentrated in the interval between 180:198<br>
 
+## Box plot
+
+Box plot also can tell us informations in a simple form <br />
+if we add: ``` ax.boxplot([men_rowing['Height'], men_gymnastics['Height']]) ``` <br />
+
+
+![image](https://user-images.githubusercontent.com/43391147/126059413-696f7d9d-746d-4e2b-9614-46347577b91f.png)
+
+<br />
+
+The information that we can extract from here
+* Median
+* Unusually samples
+  ex: in the figure above, the three circles under rowing box meaning that: there three players are more shorter than others <br>
+* interquartile range
+
 
 
 
